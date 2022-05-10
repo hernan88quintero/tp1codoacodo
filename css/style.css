@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    font-size: 18px;
+}
+
+a.navegator{
+    font-size: 20px;
+}
+
+a.navegator:hover{
+    color: white;
+}
+
+#formulario {
+  
+  text-align: center;
+}
+
+div.nombreApellido{
+   
+    margin-top: 10px;
+}
+
+button.enviar{
+    background-color: rgb(157, 203, 88);
+    border: none;
+}
+
+footer {
+    background-image: linear-gradient(to right, rgb(11, 72, 107), rgb(12, 114, 173));
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  
+}
+
+a#pie{
+    color: aliceblue;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+h5 {
+    font-size: 16px;
+}

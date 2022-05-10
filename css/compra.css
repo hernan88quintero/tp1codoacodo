@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    font-size: 18px;
+}
+
+a.navegator{
+    font-size: 20px;
+}
+
+a.navegator:hover{
+    color: white;
+}
+
+/* Tarjetas*/
+
+.tarjeta {
+    width: 50%;
+    height: 50%;
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.tarjetaUno {
+    border: 2px solid;
+    border-color: #98bbee;
+    margin-left: 0px;
+    margin-right: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.tarjetaDos {
+    border: 2px solid;
+    border-color: rgb(58, 147, 58);
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.tarjetaTres {
+    border: 2px solid;
+    border-color: rgb(221, 182, 10);
+    margin-left: 1px;
+    margin-right: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Formulario */
+
+#formulario {
+  margin: 10px 0px 20px 0px;
+  text-align: center;
+}
+
+div.nombreApellido{
+   
+    margin-top: 10px;
+}
+
+button.boton{
+    background-color: rgb(157, 203, 88);
+    border: none;
+}
+
+p.total{
+    color: rgb(13, 45, 126);
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 15px;
+    border-radius: 5px;
+    background-color: hwb(204 72% 3% / 0.909);
+}
+
+label.cantidad{
+    margin: 10px 0px 10px 0px;
+}
+
+label.categoria{
+    margin: 10px 0px 10px 0px;
+}
+
+footer {
+    background-image: linear-gradient(to right, rgb(11, 72, 107), rgb(12, 114, 173));
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  
+}
+
+a#pie{
+    color: aliceblue;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+h5 {
+    font-size: 16px;
+}
