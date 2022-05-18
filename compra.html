@@ -79,7 +79,7 @@
 
     <section>
 
-        <div id="formulario">
+        <div id="titulo-formulario">
 
         <p><span>VENTA</span></p>
 
@@ -87,31 +87,30 @@
 
         </div>
 
-
-        <form  action="">
+        <form action="" name="myForm" id="formularioTicket">
 
             <div class="vstack gap-2 col-md-6 mx-auto">
 
                 <div class="row">
                     <div class="col-md-6 nombreApellido">
-                      <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                      <input type="text"  name="nombre" class="form-control" placeholder="Nombre" aria-label="Nombre" id="nombre">
                     </div>
                     <div class="col-md-6 nombreApellido">
-                      <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                      <input type="text" name="apellido" class="form-control" placeholder="Apellido" aria-label="Apellido" id="apellido">
                     </div>
                 </div>
                                
-                    <input type="email" class="form-control" placeholder="Correo" aria-label="Correo">
+                    <input type="email" name="correo" class="form-control" placeholder="Correo" aria-label="Correo" id="correo">
                 
 
                 <div class="row">
                     <div class="col-md-6">
                         <label for="cantidad" class="cantidad">Cantidad</label>
-                      <input type="number" class="form-control" placeholder="cantidad" aria-label="Cantidad">
+                      <input type="number" class="form-control" placeholder="cantidad" aria-label="Cantidad" id="cantidad">
                     </div>
                     <div class="col-md-6">
                         <label for="categoria" class="categoria">Categoría</label>
-                        <select class="form-select" aria-label="Categoria">
+                        <select class="form-select" aria-label="Categoria" id="categoria">
                             <option selected>Seleccionar</option>
                             <option value="1">Estudiante</option>
                             <option value="2">Trainee</option>
@@ -120,16 +119,16 @@
                     </div>
                 </div>
 
-                <p for="total" class="form-label total">Total a Pagar: $ <span>0</span></p>
+                <p for="total" class="form-label total" id="mostrar">Total a Pagar: $ </p>
 
                 <div class="row">
 
                     <div class="vstack gap-2 col-md-6 mx-auto">
-                        <button type="submit" class="btn btn-success boton">Borrar</button><br>                    
+                        <button type="delete" class="btn btn-success boton">Borrar</button><br>                    
                     </div>
     
                     <div class="vstack gap-2 col-md-6 mx-auto">
-                        <button type="submit" class="btn btn-success boton">Resumen</button>                    
+                        <button type="button" class="btn btn-success boton" id="resumenBtn">Resumen</button>                    
                     </div>
 
               </div>
@@ -141,6 +140,8 @@
 
 
     </section><br>
+
+    <!-- PIE DE PÁGINA -->
 
     <footer>
 
