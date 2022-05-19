@@ -1,6 +1,6 @@
 // llamando a la función a través del evento "click"
 
-document.getElementById("resumenBtn").addEventListener("click", captar);
+document.getElementById("resumenBtn").addEventListener("click", () => captar());
 
 function captar(){
       let nombre = document.getElementById('nombre').value;
@@ -41,7 +41,7 @@ function captar(){
       // llamado de la función e impresión del resultado en pantalla
       
       var mostrarEnPantalla = document.getElementById('mostrar');
-      mostrarEnPantalla.innerHTML += descuento(categoria);
+      mostrarEnPantalla.innerHTML = '$ ' + descuento(categoria);
 
       // llamado de los valores e impresión del resultado en consola
 

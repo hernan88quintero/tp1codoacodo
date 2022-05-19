@@ -71,12 +71,22 @@ button.boton{
     border: none;
 }
 
-p.total{
+table.total{
     color: rgb(13, 45, 126);
     margin: 10px 0px 10px 0px;
     padding: 10px 0px 10px 15px;
     border-radius: 5px;
     background-color: hwb(204 72% 3% / 0.909);
+}
+td{
+    margin: 0px;
+    padding: 10px 5px 10px 20px;
+    width: 120px;
+}
+
+th{
+    margin: 0px;
+    padding: 0px;
 }
 
 label.cantidad{
